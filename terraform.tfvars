@@ -7,18 +7,21 @@ parameters = {
     "rds.dev.master_password"   = { type = "String", value = "roboshop1234" }
     "rds.dev.database_name"     = { type = "String", value = "dummy" }
     "user.dev.REDIS_HOST"       = { type = "String", value = "dev-redis-elasticache-cluster.icsgpp.0001.use1.cache.amazonaws.com" }
+
     "cart.dev.REDIS_HOST"       = { type = "String", value = "dev-redis-elasticache-cluster.icsgpp.0001.use1.cache.amazonaws.com" }
     "cart.dev.CATALOGUE_HOST"   = { type = "String", value = "catalogue-dev.devops-tools.online" }
     "cart.dev.CATALOGUE_PORT"   = { type = "String", value = "80" }
+
     "shipping.dev.CART_ENDPOINT" = { type = "String", value = "cart-dev.devops-tools.online:80" }
     "shipping.dev.DB_HOST"       = { type = "String", value = "dev-mysql-rds-cluster.cluster-c1up4meibkbm.us-east-1.rds.amazonaws.com" }
+
     "Payment.dev.CART_HOST"      = { type = "String", value = "cart-dev.devops-tools.online:80" }
     "Payment.dev.CART_PORT"      = { type = "String", value = "80" }
     "Payment.dev.USER_HOST"      = { type = "String", value = "user-dev.devops-tools.online:80" }
     "Payment.dev.USER_PORT"      = { type = "String", value = "80" }
     "rabbitmq.dev.AMQP_HOST"      = { type = "String", value = "rabbitmq-dev.devops-tools.online:80" }
 
-    "rabbitmq.dev.AMQP_USER"      = { type = "String", value = "cart-dev.devops-tools.online:80" }
-    "RABBITMQ.dev.AMQP_PASS"      = { type = "String", value = "cart-dev.devops-tools.online:80" }
+    "rabbitmq.dev.AMQP_USER"      = { type = "String", value = "roboshop" }
+    "RABBITMQ.dev.AMQP_PASS"      = { type = "String", value = "roboshop123" }
 
 }
