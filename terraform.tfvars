@@ -15,10 +15,10 @@ parameters = {
     "shipping.dev.CART_ENDPOINT" = { type = "String", value = "cart-dev.devops-tools.online:80" }
     "shipping.dev.DB_HOST"       = { type = "String", value = "dev-mysql-rds-cluster.cluster-c1up4meibkbm.us-east-1.rds.amazonaws.com" }
 
-    "Payment.dev.CART_HOST"      = { type = "String", value = "cart-dev.devops-tools.online" }
-    "Payment.dev.CART_PORT"      = { type = "String", value = "80" }
-    "Payment.dev.USER_HOST"      = { type = "String", value = "user-dev.devops-tools.online" }
-    "Payment.dev.USER_PORT"      = { type = "String", value = "80" }
+    "payment.dev.CART_HOST"      = { type = "String", value = "cart-dev.devops-tools.online" }
+    "payment.dev.CART_PORT"      = { type = "String", value = "80" }
+    "payment.dev.USER_HOST"      = { type = "String", value = "user-dev.devops-tools.online" }
+    "payment.dev.USER_PORT"      = { type = "String", value = "80" }
     "payment.dev.AMQP_HOST"      = { type = "String", value = "rabbitmq-dev.devops-tools.online" }
 
     "rabbitmq.dev.AMQP_USER"      = { type = "String", value = "roboshop" }
