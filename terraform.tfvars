@@ -1,10 +1,10 @@
 parameters = {
     "docdb.dev.master_username" = { type = "String" , value = "docdbadmin" }
     "docdb.dev.endpoint"        = { type = "String", value = "dev-docdb-cluster-instance-1.c1up4meibkbm.us-east-1.docdb.amazonaws.com" }
-    "docdb.dev.master_password" = { type = "SecureString" , value = "roboshop1234" }
+    "docdb.dev.master_password" = { type = "String" , value = "roboshop1234" }
 
     "rds.dev.master_username"   = { type = "String", value = "devadmin" }
-    "rds.dev.master_password"   = { type = "SecureString", value = "roboshop1234" }
+    "rds.dev.master_password"   = { type = "String", value = "roboshop1234" }
     "rds.dev.database_name"     = { type = "String", value = "dummy" }
 
     "user.dev.REDIS_HOST"       = { type = "String", value = "dev-redis-elasticache-cluster.icsgpp.0001.use1.cache.amazonaws.com" }
@@ -23,9 +23,9 @@ parameters = {
     "payment.dev.AMQP_HOST"      = { type = "String", value = "rabbitmq-dev.devops-tools.online" }
 
     "rabbitmq.dev.AMQP_USER"      = { type = "String", value = "roboshop" }
-    "rabbitmq.dev.AMQP_PASS"      = { type = "SecureString", value = "roboshop123" }
+    "rabbitmq.dev.AMQP_PASS"      = { type = "String", value = "roboshop123" }
 
     ##ElasticSearch
     "elasticsearch.username" = { type = "string", value = "elastic" }
-    "elasticsearch.password" = { type = "SecureString", value = "lGCP*jUrVjcwFP6PFTll" }
+    "elasticsearch.password" = { type = "String", value = "lGCP*jUrVjcwFP6PFTll" }
 }
