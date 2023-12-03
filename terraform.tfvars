@@ -27,5 +27,5 @@ parameters = {
 
     ##ElasticSearch
     "elasticsearch.username" = { type = "String", value = "elastic" }
-    "elasticsearch.password" = { type = "SecureString", value = "lGCP*jUrVjcwFP6PFTll" }
+    "elasticsearch.password" = { type = "String", value = "lGCP*jUrVjcwFP6PFTll" }
 }
