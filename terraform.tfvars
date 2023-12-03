@@ -26,6 +26,6 @@ parameters = {
     "rabbitmq.dev.AMQP_PASS"      = { type = "String", value = "roboshop123" }
 
     ##ElasticSearch
-    "elasticsearch.username" = { type = "string", value = "elastic" }
+    "elasticsearch.username" = { type = "String", value = "elastic" }
     "elasticsearch.password" = { type = "SecureString", value = "lGCP*jUrVjcwFP6PFTll" }
 }
